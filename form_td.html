@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulaire</title>
+    <style>
+        td{
+            font-size: 25px;
+        }
+
+        .fieldset{
+            margin: 0 auto;
+            width: 30%;
+        }
+
+        .btn{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="fieldset">
+        <fieldset>
+            <legend>
+                <h1>Inscription</h1>
+            </legend>
+            <form action="" method="GET">
+                <table>
+                    <img src="asset/form.jpg" alt="image" width="450px">
+                    <tr>
+                        <td><label for="Name">Name :</label> </td>
+                        <td><input type="text" name="name"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Surname"></label>Last name :</td>
+                        <td><input type="text" name="lastName"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Mail :</label></td>
+                        <td><input type="email" name="email"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Password :</label></td>
+                        <td><input type="password" name="password"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Tel :</label></td>
+                        <td><input type="text" name="tel"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Date :</label></td>
+                        <td><input type="date" name="date"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Sexe :</label></td>
+                        <td>
+                            <div>
+                                <input type="radio" id="male" name="sexe" value="male"> 
+                                <label for="male">male</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="female" name="sexe" value="female"> 
+                                <label for="female">female</label>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Votre couleur :</label></td>
+                        <td><input type="color" name="favcolor"> </td>
+                    </tr>
+
+                    <tr class="btn">
+                        <td></td>
+                        <td><input type="submit" value="Inscription"> </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+    
+</body>
+</html>
